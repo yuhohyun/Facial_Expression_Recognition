@@ -1,3 +1,7 @@
 #data
 sample_data
-labels.csv
+labels_updated.csv
+data
+full_data
+
+__pycache__
