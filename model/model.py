@@ -3,7 +3,11 @@ import torch.nn as nn
 import torchvision.models as models
 
 class PAtt_Lite(nn.Module):
+<<<<<<< HEAD
     def __init__(self, num_classes, pretrained=True):
+=======
+    def __init__(self, num_classes, pretrained=False):
+>>>>>>> d680d5cdaa56bbce989334d5eff101788e2c9bae
         super(PAtt_Lite, self).__init__()
         
         self.base_model = models.mobilenet_v2(pretrained=pretrained).features  # 사전 학습된 모델 불러오기 옵션 수정

@@ -4,6 +4,10 @@ labels_updated.csv
 data
 full_data
 
+<<<<<<< HEAD
 __pycache__
 
 face_detection
+=======
+__pycache__
+>>>>>>> d680d5cdaa56bbce989334d5eff101788e2c9bae
